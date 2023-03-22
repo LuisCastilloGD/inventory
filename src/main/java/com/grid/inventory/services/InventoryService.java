@@ -8,5 +8,6 @@ import java.util.List;
 @Service
 public interface InventoryService {
 
+    Item getItemByUniqueId(String uniqueId);
     List<Item> getItemsByUniqueIds(List<String> uniqueIds);
 }
