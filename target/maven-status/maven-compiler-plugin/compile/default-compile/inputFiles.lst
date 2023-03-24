@@ -1,0 +1,11 @@
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/models/Item.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/exceptions/ItemNotFoundedException.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/InventoryApplication.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/services/InventoryService.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/converters/ItemMapper.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/repositories/ItemRepository.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/assemblers/ItemAssembler.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/services/implementations/InventoryServiceImpl.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/models/dtos/ItemDto.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/controllers/InventoryController.java
+/Users/lcastillo/IdeaProjects/microservices/inventory/src/main/java/com/grid/inventory/exceptions/advisors/ItemNotFoundedAdvice.java
