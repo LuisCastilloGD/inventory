@@ -1,13 +1,14 @@
 package com.grid.inventory.converters;
 
 import com.grid.inventory.models.Item;
+import com.grid.inventory.models.Item.ItemBuilder;
 import com.grid.inventory.models.dtos.ItemDto;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-03-24T10:56:02-0600",
+    date = "2023-03-28T16:37:48-0600",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 19.0.1 (Homebrew)"
 )
 @Component
@@ -34,12 +35,12 @@ public class ItemMapperImpl implements ItemMapper {
             return null;
         }
 
-        Item item = new Item();
+        ItemBuilder item = Item.builder();
 
-        item.setId( productDto.getId() );
-        item.setUniqId( productDto.getUniqId() );
-        item.setAvailability( productDto.getAvailability() );
+        item.id( productDto.getId() );
+        item.uniqId( productDto.getUniqId() );
+        item.availability( productDto.getAvailability() );
 
-        return item;
+        return item.build();
     }
 }
